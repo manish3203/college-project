@@ -1,8 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:waste_managemet_app/lib/forgot_password.dart';
-import 'package:waste_managemet_app/lib/home_page.dart';
-import 'package:waste_managemet_app/lib/sign_up.dart';
+import 'package:waste_managemet_app/forgot_password.dart';
+import 'package:waste_managemet_app/home_page.dart';
+import 'package:waste_managemet_app/sign_up.dart';
+
 // Import your home page file here
 
 class Login extends StatefulWidget {

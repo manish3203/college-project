@@ -1,8 +1,10 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:waste_managemet_app/lib/Controllers/SignUp/signup_controller.dart';
-import 'package:waste_managemet_app/lib/login.dart';
+import 'package:waste_managemet_app/login.dart';
+
+import 'Controllers/SignUp/signup_controller.dart';
+
 
 
 class SignUp extends StatefulWidget {

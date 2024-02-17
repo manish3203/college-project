@@ -1,8 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:waste_managemet_app/lib/email_verification.dart';
-import 'package:waste_managemet_app/lib/home_page.dart';
-import 'package:waste_managemet_app/lib/login.dart';
+import 'package:waste_managemet_app/email_verification.dart';
+import 'package:waste_managemet_app/home_page.dart';
+import 'package:waste_managemet_app/login.dart';
+
 
 
 // ignore: camel_case_types

@@ -1,5 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:waste_managemet_app/read_sms.dart';
+
 
 
 class HomePage extends StatefulWidget {
@@ -21,6 +23,14 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("HomePage"),
+        actions: [
+          IconButton(
+            onPressed: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context) => const ReadWidget()));
+            }, 
+            icon: const Icon(Icons.notifications)
+          )
+        ],
       ),
       body: Center(child: Text('${user!.email}')),
       floatingActionButton: FloatingActionButton(
